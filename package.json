@@ -1,0 +1,25 @@
+{
+  "name": "labirint-proxy",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "jade": "~1.11.0",
+    "less-middleware": "~2.2.0",
+    "morgan": "~1.7.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "serve-favicon": "~2.3.2",
+    "webpack": "^2.2.1"
+  }
+}
