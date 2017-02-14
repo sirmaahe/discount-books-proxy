@@ -1,3 +1,11 @@
-import Component from 'react'
+import React from 'react'
 
-export default function test(){alert('foo')}
+export default class BooksContainer extends React.Component {
+    render() {
+        return (
+            <div>
+                <h1>'My component</h1>
+            </div>
+        )
+    }
+}

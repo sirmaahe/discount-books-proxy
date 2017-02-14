@@ -1,3 +1,8 @@
-import test from './containers/booksContainer'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import BooksContainer from './containers/booksContainer'
 
-test()
+ReactDOM.render(
+    <BooksContainer />,
+    document.getElementById('main'),
+)
